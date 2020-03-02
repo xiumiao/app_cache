@@ -31,8 +31,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   #spec.add_dependency 'active_hash', '~> 1.5'
-  spec.add_dependency "railties", ">= 4.1.3"
-  spec.add_dependency 'redis', '~>3.0.7'
+  spec.add_dependency "railties", ">= 3.1.0"
+  spec.add_dependency 'redis', '~>4.1.3'
 
   spec.add_development_dependency "bundler", "~> 1.15"
   spec.add_development_dependency "rake", "~> 10.0"
